@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Оппенгеймер",
+    "description": "Историческая драма 2023 года от Кристофера Нолана, рассказывающая о жизни Роберта Оппенгеймера, учёного, сыгравшего ключевую роль в создании атомной бомбы во время Второй мировой войны, и моральных последствиях этого открытия.",
+    "image": "https://s4.afisha.ru/mediastorage/ba/bc/dfc47b840e4d4f899af8a411bcba.jpg",
+    "rating": 7.7,
+    "ratingsCount": 2,
+    "userRatings": [
+      { "userId": "user1", "rating": 8 },
+      { "userId": "user2", "rating": 7 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Барби",
+    "description": "Фантастическая комедия 2023 года с Марго Робби в главной роли, где кукла Барби отправляется в реальный мир, столкнувшись с проблемами, которые сильно отличаются от её идеализированного мира.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/f0ae94af-050a-433b-a2a9-d6c96d644fd8/1920x",
+    "rating": 8.0,
+    "ratingsCount": 1,
+    "userRatings": [
+      { "userId": "user3", "rating": 8 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Cубстанция",
+    "description": "Слава голливудской звезды Элизабет Спаркл осталась в прошлом, хоть она всё ещё ведёт фитнес-шоу на телевидении. Когда её передачу собираются перезапустить с ведущей помоложе, от отчаяния Элизабет решает принять инновационный препарат, создатели которого обещают невероятное преображение, но при соблюдении правила одной недели.",
+    "image": "https://static.mk.ru/upload/entities/2024/08/31/07/articles/detailPicture/9b/23/3a/d5/7dae6cc031297bb632076ec0eee86aa4.jpg",
+    "rating": 7.2,
+    "ratingsCount": 5,
+    "userRatings": [
+      { "userId": "user4", "rating": 7 },
+      { "userId": "user5", "rating": 8 },
+      { "userId": "user6", "rating": 6 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Чёрный Адам",
+    "description": "Фильм 2022 года, который вводит нового супергероя, Чёрного Адама, сыгранного Дуэйном Джонсоном. В центре сюжета — антигерой, который обладает необычайной силой и ищет место в мире супергероев.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/6384f466-d47b-458f-9423-8e9f8e08091c/1920x",
+    "rating": 8.3,
+    "ratingsCount": 3,
+    "userRatings": [
+      { "userId": "user7", "rating": 8 },
+      { "userId": "user8", "rating": 9 },
+      { "userId": "user9", "rating": 8 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Гнев человеческий",
+    "description": "Грузовики лос-анджелесской инкассаторской компании Fortico Security часто подвергаются нападениям, и во время очередного ограбления погибают оба охранника. Через некоторое время в компанию устраивается крепкий немногословный британец Патрик Хилл.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/f3be8b0b-456c-4499-a4f3-79e1fee1ae3a/1920x",
+    "rating": 9.0,
+    "ratingsCount": 1,
+    "userRatings": [
+      { "userId": "user10", "rating": 9 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Человек-паук: Паутина вселенных",
+    "description": "После воссоединения с Гвен Стейси дружелюбный сосед Человек-Паук попадает из Бруклина в Мультивселенную, где встречает команду Паучков, защищающих само её существование.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/b69997ee-9a93-491d-affe-6deda2a7d0eb/1920x",
+    "rating": 10.0,
+    "ratingsCount": 1,
+    "userRatings": [
+      { "userId": "user11", "rating": 10 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Трансформеры: Возрождение зверей",
+    "description": "Фильм 2023 года, который перенесёт зрителей в 90-е, где борьба между автоботами и десептиконами продолжается. В центре сюжета — новые машины-роботы, которые могут трансформироваться в животных.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/51986bea-3b03-4b89-9fd3-ab7c3d3fd228/1920x",
+    "rating": 0.0,
+    "ratingsCount": 0,
+    "userRatings": [],
+    "comments": []
+  },
+  {
+    "title": "Всё везде и сразу",
+    "description": "Фантастическая комедия-драма 2022 года, которая рассказывает историю эмигрантки, находящейся в центре многомерного хаоса.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/e3260e3b-fd58-49eb-b2ae-347e3d6555b5/1920x",
+    "rating": 5.3,
+    "ratingsCount": 6,
+    "userRatings": [
+      { "userId": "user12", "rating": 5 },
+      { "userId": "user13", "rating": 6 },
+      { "userId": "user14", "rating": 5 },
+      { "userId": "user15", "rating": 7 },
+      { "userId": "user16", "rating": 4 },
+      { "userId": "user17", "rating": 5 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Дюна: Часть вторая",
+    "description": "Герцог Пол Атрейдес присоединяется к фременам, чтобы стать Муад Дибом, одновременно пытаясь остановить наступление войны.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/0c67265b-6631-4e25-b89c-3ddf4e5a1ee7/1920x",
+    "rating": 9.0,
+    "ratingsCount": 11,
+    "userRatings": [
+      { "userId": "user18", "rating": 10 },
+      { "userId": "user19", "rating": 9 },
+      { "userId": "user20", "rating": 9 },
+      { "userId": "user21", "rating": 8 },
+      { "userId": "user22", "rating": 10 },
+      { "userId": "user23", "rating": 9 },
+      { "userId": "user24", "rating": 9 },
+      { "userId": "user25", "rating": 9 },
+      { "userId": "user26", "rating": 8 },
+      { "userId": "user27", "rating": 10 },
+      { "userId": "user28", "rating": 10 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Доктор Стрэндж 2: В мультивселенной безумия",
+    "description": "Фантастический боевик 2022 года, в котором Доктор Стрэндж сталкивается с параллельными реальностями.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/7e8f31a3-4bd1-4408-94da-13a1a0cb9ff7/1920x",
+    "rating": 5.0,
+    "ratingsCount": 2,
+    "userRatings": [
+      { "userId": "user29", "rating": 5 },
+      { "userId": "user30", "rating": 5 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Человек-паук: Нет пути домой",
+    "description": "Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио раскрыл всему миру тайну личности Человека-паука.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/c245354c-078c-429c-b35b-17ee2656405e/1920x",
+    "rating": 8.0,
+    "ratingsCount": 1,
+    "userRatings": [
+      { "userId": "user31", "rating": 8 }
+    ],
+    "comments": []
+  },
+  {
+    "title": "Быстрее пули",
+    "description": "Наёмник под кодовым именем Божья Коровка отправляется на новую миссию: выкрасть чемоданчик и сойти на промежуточной станции, но выполнение простого задания сильно осложняется.",
+    "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/83280ca9-0b4f-439b-931e-38c635ad8c93/1920x",
+    "rating": 6.7,
+    "ratingsCount": 3,
+    "userRatings": [
+      { "userId": "user32", "rating": 7 },
+      { "userId": "user33", "rating": 6 },
+      { "userId": "user34", "rating": 7 }
+    ],
+    "comments": []
+  }
+]
