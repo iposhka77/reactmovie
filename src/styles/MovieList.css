@@ -1,0 +1,202 @@
+/* Общие стили */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #121212;
+  margin: 0;
+  padding: 0;
+  color: #EAEAEA;
+}
+
+/* Верхняя панель */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 20px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header .logo:hover {
+  transform: scale(1.05);
+}
+
+/* Навигация и приветствие */
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigation span {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.navigation a {
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Фильтр по рейтингу */
+.rating-filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rating-label {
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.rating-select {
+  padding: 8px 12px;
+  font-size: 1em;
+  border-radius: 8px;
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rating-select:hover {
+  background-color: #3498db;
+}
+
+/* Контейнер для списка фильмов */
+.movie-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Когда нет фильмов */
+.no-movies {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* Карточка фильма */
+.movie-card {
+  background: #1e1e1e;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Карточка: Выравнивание и отступы */
+.movie-card-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+/* Изображение фильма */
+.movie-image-container {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.movie-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.movie-image-container:hover .movie-image {
+  transform: scale(1.05);
+}
+
+/* Круглый рейтинг */
+.movie-rating-circle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #3498db;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.movie-rating-circle:hover {
+  transform: scale(1.1);
+}
+
+/* Информация о фильме */
+.movie-info {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Название фильма */
+.movie-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.movie-title:hover {
+  color: #3498db;
+}
+
+/* Ссылки в карточках фильмов */
+.movie-card-link:hover .movie-title {
+  color: #3498db;
+}

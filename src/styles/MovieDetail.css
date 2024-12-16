@@ -1,0 +1,183 @@
+/* Общие стили для контейнера */
+.movie-detail-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.movie-detail-container.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Кнопка переключения темы */
+.theme-toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.theme-toggle-btn:hover {
+    background-color: #34495e;
+}
+
+/* Контейнер для информации о фильме */
+.movie-detail-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+/* Картинка фильма */
+.movie-detail-image-container {
+    flex: 0 0 40%;
+    max-width: 400px;
+}
+
+.movie-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* Информация о фильме */
+.movie-detail-info {
+    flex: 1;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.movie-detail-info h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.movie-detail-info p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Контейнер для рейтинга */
+.movie-rating-container {
+    margin-top: 20px;
+}
+
+.movie-rating-container .rating-text {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4682B4;
+}
+
+.movie-rating-container .rating-numbers {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Все кнопки рейтинга одного цвета */
+.movie-rating-container .rating-btn {
+    background-color: #3498db; /* Цвет для всех кнопок */
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+.movie-rating-container .rating-btn:hover {
+    background-color: #2980b9; /* Цвет при наведении */
+    transform: scale(1.1);
+}
+
+/* Контейнер для комментариев */
+.movie-comments {
+    margin-top: 40px;
+}
+
+.movie-comments h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+.movie-comments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.movie-comments li {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+/* Стили для формы комментариев */
+.movie-comments form {
+    margin-top: 20px;
+}
+
+.movie-comments textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+.movie-comments textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Кнопка отправки комментария */
+.movie-comments button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.movie-comments button:hover {
+    background-color: #2980b9;
+}
+
+/* Индикатор загрузки */
+.loading-indicator {
+    font-size: 1.5rem;
+    color: #7f8c8d;
+    text-align: center;
+    padding: 50px;
+}
